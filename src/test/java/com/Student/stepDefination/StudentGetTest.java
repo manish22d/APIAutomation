@@ -1,11 +1,10 @@
-package com.Student.Test;
+package com.Student.stepDefination;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
 import com.jayway.restassured.RestAssured;
 import com.jayway.restassured.response.Response;
 import static com.jayway.restassured.RestAssured.*;
-import static org.hamcrest.Matchers.is;
 
 public class StudentGetTest {
 	@BeforeClass

@@ -1,4 +1,4 @@
-package com.Student.Test;
+package com.Student.stepDefination;
 
 import static com.jayway.restassured.RestAssured.given;
 
