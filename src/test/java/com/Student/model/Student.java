@@ -9,6 +9,7 @@ public class Student {
 	private String email;
 	private String Program;
 	private List<String> Course;
+	
 	public String getFirstName() {
 		return firstName;
 	}

@@ -1,4 +1,4 @@
-package com.Student.stepDefination;
+package com.Student.HttpOperations;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -38,8 +38,6 @@ public class StudentGetTest {
 		.get("/list")
 		.then()
 		.statusCode(200);
-		
-		
 	}
 
 }
